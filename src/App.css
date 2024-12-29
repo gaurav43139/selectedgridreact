@@ -1,0 +1,28 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 500px;
+}
+.board{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10,1fr);
+}
+.cell{
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+.selected{
+  background-color: aqua;
+}
